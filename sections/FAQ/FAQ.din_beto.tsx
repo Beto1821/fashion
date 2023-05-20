@@ -7,14 +7,15 @@ export interface Props {
 
 export default function FAQ({ questions }: Props) {
   return (
-    <div>
+    <div >
       <header
         class="text-5xl font-albert-sans font-normal flex justify-center p-4"
         style="width: 328px; height: 48px; line-height: 48px; color: #292929;"
       >
         FAQs
       </header>
-      <div class="text-lg font-albert-sans font-normal text-base-500 flex justify-center w-328 h-112 p-10">
+      <div class="text-lg font-albert-sans font-normal text-base-500 text-center" 
+      style="width: 328px; height: 112px; line-height: 28px; color: #292929;">
         Aproveite a conveniência de nosso campo FAQ e tenha uma experiência
         tranquila e esclarecedora enquanto explora as respostas para suas
         perguntas. Estamos aqui para tornar sua jornada conosco a melhor
@@ -37,6 +38,9 @@ export default function FAQ({ questions }: Props) {
       <div>
         Still have a question?
       </div>
+      <button class="flex flex-row justify-center items-center p-2 gap-2 w-83 h-40 bg-primary">
+        Contact
+      </button>
     </div>
   );
 }
