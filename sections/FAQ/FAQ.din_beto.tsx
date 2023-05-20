@@ -37,9 +37,10 @@ export default function FAQ({ questions }: Props) {
           </div>
         ))}
       </ul>
-      <div>
+      <h2 class="text-4xl font-albert-sans font-normal text-base-500 text-center" 
+      style="width: 328px; height: 80px; line-height: 40px; color: #292929;">
         Still have a question?
-      </div>
+        </h2>
       <button class="flex flex-row justify-center items-center p-2 gap-2 w-83 h-40 bg-primary">
         Contact
       </button>
